@@ -1,0 +1,101 @@
+.app{
+    background-color: var(--yellow);
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+   .react-calendar__navigation button { /* parte de arriba */
+    width: 70px;
+    font-size: 1em;
+    margin: 20px 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-color: white !important;
+    border:none !important;
+    padding: 5px;
+   }
+   .react-calendar__navigation button:hover {
+    background-color: var(--yellow);
+    transition: 0.2s ease;
+   }
+   
+   .react-calendar__tile--now { /*fecha de hoy*/
+    font-weight: bold;
+    color: black !important;
+    cursor: pointer;
+    border:none !important;
+    background-color: var(--yellow);
+   }
+
+    .react-calendar__month-view__days button { /*resto de los dias del mes*/
+        border-color: white !important;
+        cursor: pointer;
+        font-weight: bold;
+        border:none !important;
+        padding: 6px;
+    }
+   .react-calendar__month-view__days button:hover {
+    background-color: var(--yellow);
+    transition: 0.2s ease;
+   }
+   
+   .text-center{
+    margin-top: 30px;
+   }
+   .bold {
+    font-weight: bold;
+    font-size:1em;
+   }
+  
+
+   @media screen and (min-width: 1050px){
+    .app{
+        border-left: none;
+    }
+   }
+
+   @media screen and (max-width: 1050px){
+    .app {
+        width: 500px;
+        height: 350px;
+    }
+    .react-calendar__navigation button {
+        padding: 0;
+        width: 50px;
+        margin: 0;
+        font-size: 11px;
+    }
+    abbr {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .app {
+        width: 300px;
+        height: 350px;
+    }
+    .react-calendar__navigation__label{
+        width: 100px !important;
+        font-size: 12px !important;
+    }
+    .react-calendar__navigation__arrow {
+        width: 20px !important;
+        margin: 5px !important;
+    }
+    .react-calendar__navigation__label__labelText{
+        padding: 0;
+    }
+    .text-center{
+        font-size: 1em;
+    }
+    
+   .bold {
+    font-size: 0.6em;
+   }
+}
+    

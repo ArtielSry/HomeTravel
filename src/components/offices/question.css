@@ -1,0 +1,20 @@
+.question__section {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 2em 0;
+}
+
+.question__section h4 {
+    font-size: 1.2em;
+}
+.question__section p {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 850px){
+    .question__section h4{
+        font-size: 1em;
+    }
+    .question__section p {
+        font-size: 0.9em;
+    }
+}

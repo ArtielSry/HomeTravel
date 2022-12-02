@@ -1,0 +1,112 @@
+.NavbarItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    font-family: 'Kanit', sans-serif;
+    z-index: 10;
+}
+
+.navbar-menu-li {
+    display: flex;
+}
+
+.navbar-menu-li a {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/*
+.navbar-logo {
+    font-weight: bolder;
+    font-size: 2em;
+}
+*/
+
+.navbar-logo {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-menu-li a:hover {
+    background-color: var(--yellow);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+.menu-icons {
+    cursor: pointer;
+}
+svg {
+    margin-right: 10px;
+}
+@media screen and ( min-width: 1050px ) {
+    .menu-icons{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .NavbarItems{
+        flex-direction: row-reverse;
+    }
+    .padding {
+        background-color: white;
+    }
+    .navbar-logo {
+        position: absolute;
+        width: 250px;
+        height: 120px;
+    }
+    .navbar-menu-li a {
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        background-color: var(--yellow);
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .navbar-menu-li a:hover {
+        background-color: var(--yellowDark)
+    }
+    .navbar-menu-li {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        top: 79px;
+        left: -450px;
+        align-items: center;
+        position: absolute;
+        visibility: hidden;
+    }
+    .navbar-menu-li.active {
+        position: absolute;
+        z-index: 1000;
+        transition: 0.1s ease-in-out;
+        visibility: visible;
+        top: 79px;
+        left: 0px;
+    }
+}
+
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(66, 66, 66, 0.418);
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}

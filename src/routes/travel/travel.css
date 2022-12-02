@@ -1,0 +1,58 @@
+.travel__container {
+    margin-bottom: 5%;
+    min-height: calc(100vh - 350px);
+    text-align: center;
+}
+
+.travel__container-title {
+    padding-top: 3em;
+}
+
+.travel__container-title h1 {
+    font-size: 2.5em;
+}
+
+.travel__checkIn {
+    margin: 3em 0;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.travel__container-checkIn {
+    padding: 2em;
+}
+
+.checkIn__container-input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.checkIn__container-input input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+@media screen and (max-width: 1050px) {
+    .travel__checkIn {
+        flex-direction: column;
+        margin: 0;
+    }
+    .travel__container-title h1{
+        font-size: 1.4em;
+    }
+    .checkIn__container-input {
+        padding: 2em 0;
+    }
+    .travel__container-checkIn {
+        padding: 2em 0;
+    }
+
+}

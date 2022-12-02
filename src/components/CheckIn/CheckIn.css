@@ -1,0 +1,26 @@
+.checkIn__container {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.checkIn__container-feature p {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+@media screen and (max-width: 1050px){
+    .checkIn__container{
+      justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .checkIn__container{
+        text-align: center;
+    }
+    .checkIn__container-feature p{
+        font-size: 1em;
+    }
+}

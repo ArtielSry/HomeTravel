@@ -1,0 +1,60 @@
+.career__container {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    margin-bottom: 0;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 3px 20px;
+    overflow: hidden;
+    
+}
+
+.career__container-img {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.career__container-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease;
+}
+.career__container-img img:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition: 0.3s ease;
+}
+
+.career__container-title {
+    padding: 10px;
+    width: 100%;
+    background-color: var(--yellow);
+    border-radius: 3px 0;
+    font-size: 1em;
+}
+.career__container-title h3 {
+    display: inline;
+    font-size: 1em;
+}
+
+.career__container i {
+    margin-left: 0.5em;
+}
+
+.career__container-title:hover {
+    background-color: var(--yellowDark);
+}
+
+@media screen and (max-width: 650px) {
+    .career__container{
+        margin: 0;
+        padding: 20px;
+    }
+    
+.career__container-title h3 {
+        font-size: 1em;
+    }
+}
