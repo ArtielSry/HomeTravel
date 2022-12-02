@@ -44,6 +44,7 @@
     .travel__checkIn {
         flex-direction: column;
         margin: 0;
+        padding: 0;
     }
     .travel__container-title h1{
         font-size: 1.4em;

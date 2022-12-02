@@ -22,5 +22,6 @@
     }
     .checkIn__container-feature p{
         font-size: 1em;
+        padding: 5px;
     }
 }

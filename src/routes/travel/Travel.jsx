@@ -16,7 +16,7 @@ const Travel = () => {
             <div className="travel__container-checkIn">
                 <CheckIn text="Check your booking and make changes" i="bi bi-check-circle"/>
                 <CheckIn text="Check in and get your boarding passes" i="bi bi-check-circle"/>
-                <CheckIn text="Easy access to help and useful information" i="bi bi-check-circle"/>
+                <CheckIn text="Easy access to help and information" i="bi bi-check-circle"/>
             </div>
             <div className="checkIn__container-input">
                 <input type="text" placeholder="Reservation number"></input>

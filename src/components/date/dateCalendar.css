@@ -18,6 +18,7 @@
     border:none !important;
     padding: 5px;
    }
+
    .react-calendar__navigation button:hover {
     background-color: var(--yellow);
     transition: 0.2s ease;
@@ -87,8 +88,10 @@
         width: 20px !important;
         margin: 5px !important;
     }
-    .react-calendar__navigation__label__labelText{
+    .react-calendar__navigation__label__labelText, 
+    .react-calendar__navigation__arrow {
         padding: 0;
+        background-color: white !important;
     }
     .text-center{
         font-size: 1em;
