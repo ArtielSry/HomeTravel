@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/HomeTravel/static/css/main.f42ccee5.css",
+    "main.js": "/HomeTravel/static/js/main.38dc3295.js",
+    "static/js/787.73da42f9.chunk.js": "/HomeTravel/static/js/787.73da42f9.chunk.js",
+    "static/media/blog03.jpg": "/HomeTravel/static/media/blog03.b06b30cf2d2fb80d9ec8.jpg",
+    "static/media/blog02.jpg": "/HomeTravel/static/media/blog02.b659574560ce08a6a129.jpg",
+    "static/media/blog01.jpg": "/HomeTravel/static/media/blog01.c1893321f6241035dec1.jpg",
+    "static/media/bootstrap-icons.woff?": "/HomeTravel/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/blog05.jpg": "/HomeTravel/static/media/blog05.dfcbea6a81048d5bf671.jpg",
+    "static/media/bootstrap-icons.woff2?": "/HomeTravel/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/blog04.jpg": "/HomeTravel/static/media/blog04.85b10b939430bf5433fd.jpg",
+    "static/media/car03.jpg": "/HomeTravel/static/media/car03.e1e8ce8ca90a3dc90651.jpg",
+    "static/media/car01.jpg": "/HomeTravel/static/media/car01.e1c8cc8ff02e8cbac90a.jpg",
+    "static/media/car02.jpg": "/HomeTravel/static/media/car02.286c031c504e287d4a15.jpg",
+    "static/media/car05.jpg": "/HomeTravel/static/media/car05.3017187309c4f9b41215.jpg",
+    "static/media/car04.jpg": "/HomeTravel/static/media/car04.0833f9b4b23e2bfbb2d5.jpg",
+    "static/media/car06.jpg": "/HomeTravel/static/media/car06.ebdc8843c1ce5930acb6.jpg",
+    "static/media/logo.png": "/HomeTravel/static/media/logo.8759c0c7cd09406daf29.png",
+    "index.html": "/HomeTravel/index.html",
+    "main.f42ccee5.css.map": "/HomeTravel/static/css/main.f42ccee5.css.map",
+    "main.38dc3295.js.map": "/HomeTravel/static/js/main.38dc3295.js.map",
+    "787.73da42f9.chunk.js.map": "/HomeTravel/static/js/787.73da42f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f42ccee5.css",
+    "static/js/main.38dc3295.js"
+  ]
+}
