@@ -11,7 +11,7 @@ import DatePrice from "../../components/date-price/DatePrice";
 
 import React from "react";
 
-const Home = () => {
+const HomeTravel = () => {
     return(
         <>
         <Navbar/>
@@ -35,4 +35,4 @@ const Home = () => {
         </>
     )
 }
-export default Home;
+export default HomeTravel;
