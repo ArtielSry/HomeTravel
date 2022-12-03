@@ -14,6 +14,9 @@ import React from "react";
 const HomeTravel = () => {
     return(
         <>
+        <div className="fondo">
+
+
         <Navbar/>
         <div className="home__container">
           <h1 className="home__main">Traveling</h1>
@@ -30,6 +33,8 @@ const HomeTravel = () => {
                 <Link to={"/Discover"}><Feature title="Discover" icon="bi bi-search"/></Link>
                 <Link to={"/About"}><Feature title="Join us now" icon="bi bi-person-lines-fill"/></Link>
             </div>
+        </div>
+        
         </div>
         <Footer/>
         </>

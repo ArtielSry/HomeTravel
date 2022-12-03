@@ -4,6 +4,7 @@
     min-height: calc(100vh - 350px);
 }
 
+
 .home__title {
     background-color: transparent;
     padding: 2%;
@@ -34,6 +35,14 @@
     justify-content: center;
 }
 
+.fondo {    
+    background: url("../../assets/fondo.png");
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media screen and (max-width: 1050px){
     .home__container{
