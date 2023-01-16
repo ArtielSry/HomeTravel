@@ -9,7 +9,7 @@ function DateCalendar() {
     return (
       <div className='app'>
         <div className='calendar-container'>
-          <Calendar onChange={setDate} value={date} />
+          <Calendar locale="en-EN" onChange={setDate} value={date} />
         </div>
         <p className='text-center'>
           <span className='bold'>Selected Date:</span>{' '}

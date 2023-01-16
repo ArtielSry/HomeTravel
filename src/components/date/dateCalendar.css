@@ -17,6 +17,7 @@
     border-color: white !important;
     border:none !important;
     padding: 5px;
+    background-color: white;
    }
 
    .react-calendar__navigation button:hover {
@@ -38,6 +39,7 @@
         font-weight: bold;
         border:none !important;
         padding: 6px;
+        background-color: white;
     }
    .react-calendar__month-view__days button:hover {
     background-color: var(--yellow);
