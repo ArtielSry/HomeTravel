@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HomeTravel/static/css/main.29584e75.css",
-    "main.js": "/HomeTravel/static/js/main.38823243.js",
+    "main.css": "/HomeTravel/static/css/main.1af6a201.css",
+    "main.js": "/HomeTravel/static/js/main.1a529bc4.js",
     "static/js/787.73da42f9.chunk.js": "/HomeTravel/static/js/787.73da42f9.chunk.js",
     "static/media/blog03.jpg": "/HomeTravel/static/media/blog03.b06b30cf2d2fb80d9ec8.jpg",
     "static/media/blog02.jpg": "/HomeTravel/static/media/blog02.b659574560ce08a6a129.jpg",
@@ -19,12 +19,12 @@
     "static/media/car06.jpg": "/HomeTravel/static/media/car06.ebdc8843c1ce5930acb6.jpg",
     "static/media/logo.png": "/HomeTravel/static/media/logo.8759c0c7cd09406daf29.png",
     "index.html": "/HomeTravel/index.html",
-    "main.29584e75.css.map": "/HomeTravel/static/css/main.29584e75.css.map",
-    "main.38823243.js.map": "/HomeTravel/static/js/main.38823243.js.map",
+    "main.1af6a201.css.map": "/HomeTravel/static/css/main.1af6a201.css.map",
+    "main.1a529bc4.js.map": "/HomeTravel/static/js/main.1a529bc4.js.map",
     "787.73da42f9.chunk.js.map": "/HomeTravel/static/js/787.73da42f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29584e75.css",
-    "static/js/main.38823243.js"
+    "static/css/main.1af6a201.css",
+    "static/js/main.1a529bc4.js"
   ]
 }
